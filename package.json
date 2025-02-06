@@ -4,12 +4,11 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "start:prod": "node dist/server.js",
-    "start:local": "node src/server.js",
-    "dev:prod": "nodemon dist/server.js",
-    "dev:local": "nodemon src/server.js",
-    "build": "ng build --configuration production",
+    "ng": "ng",
     "start": "ng serve",
+    "build": "ng build --configuration production",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",  
     "clean": "rm -rf node_modules && npm install",
     "encrypt": "node envEncrypt.js",
     "decrypt": "node envDecrypt.js"
