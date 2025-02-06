@@ -1,6 +1,6 @@
 [build]
-  command = "npm install -g @angular/cli && npm install && npm run build"
-  publish = "dist/zctransportes"
+  command = "npm run build"
+  publish = "dist/zctransportes/browser"
 
 [[redirects]]
   from = "/*"
