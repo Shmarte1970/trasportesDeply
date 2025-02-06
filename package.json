@@ -8,7 +8,8 @@
     "start:local": "node src/server.js",
     "dev:prod": "nodemon dist/server.js",
     "dev:local": "nodemon src/server.js",
-    "build": "tsc",
+    "build": "ng build --configuration production",
+    "start": "ng serve",
     "clean": "rm -rf node_modules && npm install",
     "encrypt": "node envEncrypt.js",
     "decrypt": "node envDecrypt.js"
